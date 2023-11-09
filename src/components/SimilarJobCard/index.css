@@ -1,0 +1,134 @@
+.similar-job-card {
+  background-color: #272727;
+  border-radius: 15px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px;
+}
+
+.logo-and-title-container {
+  display: flex;
+}
+.company-logo-a {
+  width: 80px;
+}
+.job-title-a {
+  color: #ffffff;
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon-a {
+  width: 40px;
+  color: gold;
+}
+.rating-value {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .company-logo-a {
+    width: 60px;
+    height: 60px;
+  }
+  .job-title-a {
+    font-size: 14px;
+  }
+  .star-icon-a {
+    margin-top: -13px;
+  }
+  .rating-value {
+    margin-top: 2px;
+    margin-left: -10px;
+  }
+}
+
+.location-and-package-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.location-and-type-container {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+.location-icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.location-icon {
+  color: #ffffff;
+  width: 16px;
+}
+.location-texts {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.package-text {
+  color: #ffffff;
+}
+
+.hr-line {
+  color: #ffffff;
+  width: 100%;
+  padding-top: 0px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+@media screen and (max-width: 768px) {
+  .location-texts {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .location-and-type-container {
+    width: 120px;
+  }
+  .location-icon {
+    width: 12px;
+  }
+}
+
+.job-description-heading-a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+}
+.job-description-content-a {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  padding-top: 5px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 768px) {
+  .job-description-heading-a {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+  .job-description-content-a {
+    font-size: 11px;
+    margin-top: -10px;
+    padding-top: 0px;
+  }
+}

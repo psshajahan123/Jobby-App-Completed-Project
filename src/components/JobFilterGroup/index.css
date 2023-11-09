@@ -1,0 +1,66 @@
+.job-filter-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .job-filter-group {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 10px;
+  }
+}
+
+.salary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.salary-heading {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.salary-range-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.checkbox-list-items {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.checkbox-label {
+  color: #ffffff;
+  padding-left: 8px;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.horizontal-line {
+  color: #ffffff;
+  border-width: 1px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .horizontal-line {
+    display: none;
+  }
+  .salary-heading {
+    font-size: 12px;
+  }
+  .checkbox-label {
+    font-size: 10px;
+  }
+}

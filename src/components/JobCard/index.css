@@ -1,0 +1,145 @@
+.job-list-items {
+  background-color: #202020;
+  padding: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.company-container {
+  display: flex;
+}
+
+.logo-url {
+  width: 60px;
+  margin-right: 15px;
+}
+.company-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.star-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: #fbbf24;
+}
+.rating-count {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-section {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.package-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.employment-type {
+  color: #ffffff;
+  padding-left: 6px;
+  font-size: 14px;
+}
+.location-text {
+  color: #ffffff;
+  padding-left: 6px;
+  font-size: 14px;
+}
+
+.location-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.hr-line {
+  color: #ffffff;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.description-content {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .job-list-items {
+    border-radius: 10px;
+  }
+  .logo-url {
+    width: 45px;
+  }
+  .company-title {
+    font-size: 13px;
+  }
+  .star-icon {
+    width: 12px;
+  }
+  .rating-count {
+    font-size: 12px;
+  }
+  .location-container {
+    padding: 0px;
+    margin: 0px;
+  }
+  .location-section {
+    width: 160px;
+    margin-bottom: 0px;
+  }
+  .package-text {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .employment-type {
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+  }
+  .location-text {
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+  }
+  .location-icon {
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+  .star-icon-container {
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .description-heading {
+    font-size: 13px;
+  }
+  .description-content {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}
